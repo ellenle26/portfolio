@@ -1843,6 +1843,26 @@ body.is-preload #footer {
   align-items: center;
 }
 
-.percent:hover .percent2 {
-  display: inline-block;
+.percentbox {
+  overflow: hidden;
+  position: relative;
+}
+
+.percent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  bottom: -100%;
+  left: 0;
+  position: absolute;
+  transition: bottom 0.5s ease;
+}
+.percentbox:hover .percent {
+  bottom: 0;
 }

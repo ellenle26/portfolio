@@ -1866,3 +1866,14 @@ body.is-preload #footer {
 .percentbox:hover .percent {
   bottom: 0;
 }
+
+.skillName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  background-color: transparent;
+  color: white;
+}

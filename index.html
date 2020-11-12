@@ -16,19 +16,20 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
     <noscript
 	  ><link rel="stylesheet" href="assets/css/noscript.css"
-	/></noscript>
+  /></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body class="is-preload">
+  <body class="is-preload" style="font-family: Be Vietnam, sans-serif;">
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
-      <header id="header">
-        <div class="logo"><img src="./images/alien.png" style="width: 55px; color: white;"/>
+      <header id="header" style="background-color: rgb(186 128 137 / 22%); padding: 30px; border-radius: 30px;" >
+        <div class="logo"><img src="./images/fingerprints.png" style="width: 55px"/>
         </div>
         <div class="content">
           <div class="inner">
 			<p style="font-size: larger;">
-				Hello, there! </br>
+				Hello! </br>
               My name is
               <span
                 style="font-size: 30px; font-family: 'Play', sans-serif;"
@@ -67,42 +68,29 @@
 			There are obsticles, challenges, up-and-down moments that I have overcame to finally become Earth peaople in this field.</br>
 			Check out some of my awesome works <a href="#work"><u>here!</u></a> .
 		  </p>
-		  <div class="myContent">
-      <img src="images/IMG_0002.png" class="rounded" alt="" style="width: 110px;"/>
-      <span style="width: 20px;"></span>
-		  <div style="width: fit-content;">
-			  <h2>Lê Khánh Linh</h2>
-			  Birthday: 26 Nov 1993</br>
-			  Phone: O9O 1177 O83</br>
-			  Email: linh.lkl@outlook.com
-      </div>
-		</div>
+		  
     <div style="width: 100%; display: flex; justify-content: space-around; align-items: flex-start; margin-top: 20px;"> 
-        <div style="width: 45%; height: 100%; ">
+        <div style="width: 45%;padding-right: 30px; height: 100%;; border-right: solid 1px ">
           <div style="text-align: center;">EDUCATION</div></br>
           <div><u><b>Coder School <br>(Aug 2020 - Nov 2020)</b></u></div>
           <div>FULL STACK WEB DEVELOPMENT</div>
           <div>I've learned to be able to develop a fully functional website.</div></br>
           <div><u><b>University of Finane and Marketing <br> (Sep 2011 - Aug 2015)</b></u></div>
           <div>FINNANCE AND BANKING</div>
-          <div>Understanding how the economy works</div>
         </div>
-        <div style="width: 45%; padding-left: 30px; border-left: solid 1px white;">
+        <div style="width: 45% ">
           <div style="text-align: center;">PROFESSIONAL EXPERIENCE</div></br>
           <div><u><b>Hansae HCM Co.,ltd <br> (Apr 2017 - May 2020)</b></u></div>
           <div>MERCHANDISER</div>
           <div><span>Working with buyers, supplier, factory.</span><br>
-          <span>Follow up garment order from develop to actual shipment.</span></div></br>
-          <div><u><b>University of Finane and Marketing <br> (Sep 2011 - Aug 2015)</b></u></div>
-          <div>FINNANCE AND BANKING</div>
-          <div>Understanding how the economy works</div>
+          <span>Follow up garment order from develop to actual shipment.</span></div>
         </div>
     </div>
         </article>
 
         <!-- Work -->
         <article id="work" >
-			<h2 class="major">Projects</h2>
+			<h2 class="major">Projects <a href="https://app.netlify.com/teams/ellenle26/sites"><i class="fas fa-info"></i></a></h2>
 		  <div class="projectCard">
 		  	<div class="flip-card">
 				<div class="flip-card-inner">
@@ -111,7 +99,7 @@
 				</div>
 				<div class="flip-card-back"> 
 					<div style="font-size: larger; font-weight: 900;">Space Game</div>
-					<div>HTML / CSS</div> 
+					<div>HTML / CSS/ Canvas</div> 
 					<div>
 					<a href="https://github.com/ellenle26/spaceGame" target="_"><i class="fas fa-code-branch"></i></a> &nbsp;
 					<a href="https://spacegame-ll.netlify.app/" target="_"><i class="fas fa-play"></i></a>
@@ -155,14 +143,14 @@
 			<div class="flip-card">
 				<div class="flip-card-inner">
 				<div class="flip-card-front" style="width: 18rem">
-				  <img src="./images/blog.png" class="card-img-top" alt="" style="width: 298px; border-radius: 20px;">
+				  <img src="./images/hom.png" class="card-img-top" alt="" style="width: 298px; border-radius: 20px;">
 				</div>
 				<div class="flip-card-back"> 
-					<div style="font-size: larger; font-weight: 900;">SoSo Blog</div>
-					<div>React / Redux / API</div> 
+					<div style="font-size: larger; font-weight: 900;">hôm</div>
+					<div>React / Redux / Mongoose</div> 
 					<div>
-						<a href="https://github.com/ellenle26/socialblog2" target="_"><i class="fas fa-code-branch"></i></a> &nbsp;
-						<a href="https://sosoblog.netlify.app/" target="_"><i class="fas fa-play"></i></a>
+						<a href="https://github.com/ellenle26/hom-fe" target="_"><i class="fas fa-code-branch"></i></a> &nbsp;
+						<a href="https://homstay.netlify.app/" target="_"><i class="fas fa-play"></i></a>
 					</div>
 				</div>
 				</div>
@@ -175,97 +163,95 @@
         <!-- About -->
         <article id="skills">
           <h2 class="major">Skills</h2>
-          <div style="width: 100%; display: flex">
-            <div style="width: 30%; text-align: center;">
+          <div  class="theSkills">
+            <div class="theSkill1">
             <div style="margin-bottom: 20px; font-weight: bold; font-size: larger;">Technical skills</div>
             <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-          <i class="fab fa-5x fa-html5"></i>
+          <i class="fab fa-4x fa-html5"></i>
           <div class="percentbox"> 
             <div>
           <!-- <i class="far fa-4x fa-grin-wink  " ></i> -->
       <div class="skillName">HTML</div>
         </div>
-          <div class="percent">75%</div>
+          <div class="percent">HTML</div>
           </div>
-        </div>
+        </div><br/>
         <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-          <i class="fab fa-5x fa-css3-alt"></i>
+          <i class="fab fa-4x fa-css3-alt"></i>
           <div class="percentbox">
               <div>
             <!-- <i class="far fa-4x fa-smile  " ></i> -->
       <div class="skillName">CSS</div>
           </div>
-            <div class="percent">75%</div>
+            <div class="percent">CSS</div>
             </div>
             
-        </div>
+        </div><br/>
         <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-          <i class="fab fa-5x fa-js-square"></i>
+          <i class="fab fa-4x fa-js-square"></i>
           <div class="percentbox"> 
             <div>
           <!-- <i class="far fa-4x fa-smile-beam  " ></i> -->
       <div class="skillName">Javascript</div>
         </div>
-          <div class="percent">75%</div>
+          <div class="percent">JS</div>
           </div>
-        </div>
+        </div><br/>
         <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-          <i class="fab fa-5x fa-react"></i>
+          <i class="fab fa-4x fa-react"></i>
           <div class="percentbox"> 
             <div>
           <!-- <i class="far fa-4x fa-grin-squint  " ></i> -->
       <div class="skillName">React</div>
         </div>
-          <div class="percent">75%</div>
+          <div class="percent">ReactJS</div>
           </div>
         </div>
       </div>
-      <div style="width: 30%; text-align: center;">
-        <div style="margin-bottom: 20px; font-weight: bold; font-size: larger;">Technical skills</div>
+      <div class="theSkill1">
+        <div style="margin-bottom: 20px; font-weight: bold; font-size: larger;" >Technical skills</div>
         <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-      <i class="fab fa-5x fa-node-js"></i>
+      <i class="fab fa-4x fa-node-js"></i>
       <div class="percentbox"> 
         <div>
       <!-- <i class="far fa-4x fa-grin-wink" ></i> -->
       <div class="skillName">NodeJS</div>
     </div>
-      <div class="percent">75%</div>
+      <div class="percent">NodeJS</div>
       </div>
-    </div>
+    </div><br/>
     <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-      <i class="fab fa-5x fa-css3-alt"></i>
+      <i class="fas fa-4x fa-database"></i>
       <div class="percentbox">
           <div>
-        <i class="far fa-4x fa-smile  " ></i>
+            <div class="skillName">MongoDB</div>
       </div>
-        <div class="percent">75%</div>
+        <div class="percent">Data</div>
         </div>
-        
-    </div>
+    </div><br/>
     <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-      <i class="fab fa-5x fa-js-square"></i>
+      <i class="fas fa-3x fa-code-branch"></i>
       <div class="percentbox"> 
         <div>
-      <i class="far fa-4x fa-smile-beam  " ></i>
+          <div class="skillName">Git</div>
     </div>
-      <div class="percent">75%</div>
+      <div class="percent">Git</div>
       </div>
-    </div>
+    </div><br/>
     <div style="display: flex; align-items: center; justify-content: space-evenly; ">
-      <i class="fab fa-5x fa-react"></i>
       <div class="percentbox"> 
-        <div>
-      <i class="far fa-4x fa-grin-squint  " ></i>
-    </div>
-      <div class="percent">75%</div>
+       Keep learning<br/> everyday! <i class="far fa-smile-beam"></i>
       </div>
     </div>
   </div>
-      <div style="width: 30%; border-left: solid 1px white; padding-left: 20px;">
+      <div class="theSkill2" >
         <div style="margin-bottom: 20px; font-weight: bold; font-size: larger;">Soft skills</div>
         <div>- Teamwork <br>
           - Detail-oriented <br>
           - Planning<br>
+          - Creative and observant<br/>
+          - Open minded<br/>
+          - Communication
         </div>
       </div>
         </div>
@@ -274,41 +260,24 @@
         <!-- Contact -->
         <article id="contact">
           <h2 class="major">Contact</h2>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field half">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field half">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-              </div>
+          <div class="myContent">
+            <img src="images/avatar.png" class="rounded" alt="" style="width: 110px;"/>
+            <span style="width: 20px;"></span>
+            <div style="width: fit-content;">
+              <h2>Lê Khánh Linh</h2>
+              Birthday: 26 Nov 1993</br>
+              Phone: O9O 1177 O83</br>
+              Email: linh.lkl@outlook.com
             </div>
-            <ul class="actions">
-              <li>
-                <input type="submit" value="Send Message" class="primary" />
-              </li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
-          <ul class="icons">
+          </div><br/>
+          <ul class="icons" style="text-align: center;">
             <li>
-              <a href="#" class="icon brands fa-facebook-f"
-                ><span class="label">Facebook</span></a
+              <a href="https://www.linkedin.com/in/klinhle93/" class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
               >
             </li>
             <li>
-              <a href="#" class="icon brands fa-instagram"
-                ><span class="label">Instagram</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="icon brands fa-github"
+              <a href="https://github.com/ellenle26" class="icon brands fa-github"
                 ><span class="label">GitHub</span></a
               >
             </li>
